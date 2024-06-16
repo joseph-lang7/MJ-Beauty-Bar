@@ -1,6 +1,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-const MobileNav = (isOpen) => {
+import PropTypes from "prop-types";
+const MobileNav = ({ isOpen }) => {
   return (
     <ul
       className={`${
@@ -29,3 +30,6 @@ const MobileNav = (isOpen) => {
 };
 
 export default MobileNav;
+MobileNav.propTypes = {
+  isOpen: PropTypes.bool,
+};
