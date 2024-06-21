@@ -1,15 +1,18 @@
 import "./App.css";
-import Hero from "./components/hero/hero";
 import Navbar from "./components/navbar/navbar";
-import WeProvideBanner from "./components/we-provide-banner/we-provide-banner";
-import OurServices from "./components/our-services/our-services";
+import { Routes, Route } from "react-router-dom";
+import AboutPage from "./pages/about";
+import PricingPage from "./pages/pricing";
+import HomePage from "./pages/home";
 function App() {
   return (
     <div className="bg-[#FAF2EE] selection:bg-[#663130] text-[#663130] selection:text-white">
       <Navbar />
-      <Hero />
-      <WeProvideBanner />
-      <OurServices />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
+      </Routes>
     </div>
   );
 }
