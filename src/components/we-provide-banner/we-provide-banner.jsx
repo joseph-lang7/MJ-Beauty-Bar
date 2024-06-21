@@ -6,7 +6,7 @@ const WeProvideBanner = () => {
           Enhance Your <span className="text-[#A27474]">Radiance </span>with Our
           Expert Beauty and Spa Treatments
         </h3>
-        <p className="text-center">
+        <p className="text-center font-[poppins]">
           Our expert team specializes in lashing, facials, and waxing, offering
           treatments designed to enhance your natural beauty and leave you
           feeling rejuvenated. Whether you&apos;re looking for stunning lashes,

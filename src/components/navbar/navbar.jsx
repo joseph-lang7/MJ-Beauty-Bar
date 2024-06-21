@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <nav className="w-full h-[150px] bg-[#FAF2EE] flex justify-between items-center px-5 absolute">
+      <nav className="w-full h-[100px] bg-[#FAF2EE] flex justify-between items-center px-5 absolute">
         <Link to="/">
           <div className="text-3xl font-bold">MJ Beauty Bar</div>
         </Link>

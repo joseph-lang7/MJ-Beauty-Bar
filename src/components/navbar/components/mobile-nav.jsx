@@ -11,13 +11,13 @@ const MobileNav = ({ isOpen, setOpen }) => {
         isOpen ? "translate-x-0" : "translate-x-[-100%]"
       } flex flex-col md:hidden w-screen h-screen items-center justify-center z-40 transition-all duration-500 bg-white fixed ease-linear gap-10 text-3xl`}
     >
-      <li onClick={() => setOpen(!isOpen)}>
+      <li className="font-[poppins]" onClick={() => setOpen(!isOpen)}>
         <Link to="/">Home</Link>
       </li>
-      <li onClick={() => setOpen(!isOpen)}>
+      <li className="font-[poppins]" onClick={() => setOpen(!isOpen)}>
         <Link to="/pricing">Pricing</Link>
       </li>
-      <li onClick={() => setOpen(!isOpen)}>
+      <li className="font-[poppins]" onClick={() => setOpen(!isOpen)}>
         <Link to="/about">About</Link>
       </li>
       <div className="flex gap-5">

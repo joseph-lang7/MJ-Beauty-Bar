@@ -14,7 +14,7 @@ const OurServices = () => {
           <span className="text-[#A27474]">your glow</span>
         </h3>
         <div className="w-full flex justify-center">
-          <div className="flex gap-5 w-full justify-center max-w-[550px] text-center text-xl">
+          <div className="flex flex-wrap gap-5 w-full justify-center max-w-[550px] text-center text-xl font-[poppins] px-5">
             <p>Lash Lifts</p>
             <p>Waxings</p>
             <p>Facials</p>
