@@ -6,11 +6,11 @@ const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <nav className="w-full h-[100px] bg-[#FAF2EE] flex justify-between items-center px-5 absolute">
+      <nav className="w-full h-[100px] bg-[#FAF2EE] flex justify-between items-center px-5 fixed z-50">
         <Link to="/">
           <div className="text-3xl font-bold">MJ Beauty Bar</div>
         </Link>
-        <div className="block md:hidden z-50">
+        <div className="block md:hidden z-[60]">
           <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
         </div>
         <DesktopNav />

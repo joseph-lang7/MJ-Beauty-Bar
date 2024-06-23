@@ -9,7 +9,7 @@ const MobileNav = ({ isOpen, setOpen }) => {
     <ul
       className={`${
         isOpen ? "translate-x-0" : "translate-x-[-100%]"
-      } flex flex-col md:hidden w-screen h-screen items-center justify-center z-40 transition-all duration-500 bg-white fixed ease-linear gap-10 text-3xl`}
+      } flex flex-col md:hidden w-screen h-screen items-center justify-center z-40 transition-all duration-500 bg-[#FAF2EE] fixed ease-linear gap-10 text-3xl`}
     >
       <li className="font-[poppins]" onClick={() => setOpen(!isOpen)}>
         <Link to="/">Home</Link>
