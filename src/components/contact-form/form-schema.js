@@ -12,9 +12,10 @@ export const formSchema = yup.object({
   phone: yup
     .string()
     .required("Phone is required.")
-    .matches(phoneRegExp, "Please enter valid phone number i.e 707-123-4567")
     .max(12, "Phone number cannot exceed 12 digits.")
-    .min(8, "Phone number must be at least 8 digits."),
+    .min(8, "Phone number must be at least 8 digits.")
+    .matches(phoneRegExp, "Please enter valid phone number i.e 707-123-4567"),
+
   message: yup
     .string()
     .required("Message is required.")

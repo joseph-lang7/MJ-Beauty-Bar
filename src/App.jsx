@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 import { Routes, Route } from "react-router-dom";
 import AboutPage from "./pages/about";
 import PricingPage from "./pages/pricing";
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/pricing" element={<PricingPage />} />
       </Routes>
+      <Footer />
       <ToastContainer />
     </div>
   );

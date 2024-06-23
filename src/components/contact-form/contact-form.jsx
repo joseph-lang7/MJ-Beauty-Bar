@@ -15,17 +15,18 @@ const ContactForm = () => {
   const { errors, isSubmitting } = formState;
   const hasInput = !!watch("message");
   const onSubmit = (data) => {
-    setClientName(data.fullName);
+    const clientName = data.fullName;
+    setClientName(clientName);
     try {
+      notifySuccess(clientName);
       reset();
-      notifySuccess();
     } catch (error) {
       console.error(error);
       notifyError();
     }
   };
-  const notifySuccess = () =>
-    toast.success(`Thank you, ${clientName}!`, {
+  const notifySuccess = (name) =>
+    toast.success(`Thank you, ${name}!`, {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
@@ -47,10 +48,7 @@ const ContactForm = () => {
       theme: "light",
     });
   return (
-    <div
-      id="#contact-form"
-      className="flex flex-col lg:flex-row h-full lg:items-center gap-20"
-    >
+    <div className="flex flex-col lg:flex-row h-full lg:items-center gap-20">
       <div className="flex-1 px-10 w-full h-full justify-center flex flex-col gap-5 pb-20 md:pb-0">
         <h2 className="text-4xl sm:text-6xl capitalize">
           Experience our exceptional{" "}
