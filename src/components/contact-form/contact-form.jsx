@@ -15,9 +15,8 @@ const ContactForm = () => {
   const { errors, isSubmitting } = formState;
   const hasInput = !!watch("message");
   const onSubmit = (data) => {
+    setClientName(data.fullName);
     try {
-      console.log(data);
-      setClientName(data.fullName);
       reset();
       notifySuccess();
     } catch (error) {
