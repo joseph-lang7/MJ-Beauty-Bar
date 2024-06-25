@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="text-center flex flex-col gap-3">
             <h3 className="text-xl">Contact</h3>
             <p>847 Random St, Eureka, CA</p>
-            <p className="hover:translate-x-3 cursor-pointer transition-all duration-500">
+            <p className="hover:translate-x-3 cursor-pointer transition-all duration-500 ">
               mjbeautybar@gmail.com
             </p>
             <p className="hover:translate-x-3 cursor-pointer transition-all duration-500">

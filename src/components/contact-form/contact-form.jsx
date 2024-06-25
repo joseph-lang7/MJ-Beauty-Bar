@@ -49,7 +49,7 @@ const ContactForm = () => {
     });
   return (
     <div className="flex flex-col lg:flex-row h-full lg:items-center gap-20">
-      <div className="flex-1 px-10 w-full h-full justify-center flex flex-col gap-5 pb-20 md:pb-0">
+      <div className="flex-1 px-5 w-full h-full justify-center flex flex-col gap-5 pb-20 md:pb-0 items-center text-center">
         <h2 className="text-4xl sm:text-6xl capitalize">
           Experience our exceptional{" "}
           <span className="text-[#A27474]">beauty rituals</span>
@@ -59,7 +59,7 @@ const ContactForm = () => {
           Step into a world of luxurious self-care and rejuvenation with our
           carefully curated selection of premier beauty rituals. Designed to
           pamper and elevate your senses, each ritual is crafted with the finest
-          ingredients and expert techniques to deliver exceptional results
+          ingredients and expert techniques to deliver exceptional results.
         </p>
         <div className="max-w-[600px]">
           <AppointmentButton />

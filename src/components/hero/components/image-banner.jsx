@@ -1,18 +1,32 @@
 const ImageBanner = () => {
   return (
-    <div className="h-auto md:max-h-[600px] min-w-full flex flex-col md:flex-row">
+    <div className="h-auto overflow-hidden min-w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-5 ">
       <div className="flex-1 w-full">
         <img
-          src="/woman-gazing.jpg"
+          src="/eyelash-in-mirror.jpeg"
           alt="woman gazing"
-          className="w-full h-full object-cover"
+          className="w-full h-[300px] object-right object-cover"
         />
       </div>
-      <div className="flex-[2] w-full">
+      <div className="flex-1 w-full">
         <img
-          src="/facial.jpg"
+          src="/left-eyelash.jpeg"
           alt="woman getting a facial"
-          className="w-full h-full object-cover"
+          className="w-full h-[300px]  object-cover"
+        />
+      </div>
+      <div className="flex-1 w-full">
+        <img
+          src="/makeup.jpeg"
+          alt="woman getting a facial"
+          className="w-full h-[300px] object-cover"
+        />
+      </div>
+      <div className="flex-1 w-full">
+        <img
+          src="/makeup2.jpeg"
+          alt="woman getting a facial"
+          className="w-full h-[300px] object-cover"
         />
       </div>
     </div>

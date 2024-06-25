@@ -1,15 +1,15 @@
 const OurServices = () => {
   return (
     <div className="w-full flex flex-col gap-10 lg:flex-row lg:justify-between pb-20">
-      <div className="w-full lg:w-1/3">
+      <div className="w-full lg:w-1/3 flex justify-center">
         <img
-          className="object-cover w-full h-full"
-          src="/jade-roller.jpg"
+          className="object-cover w-full max-w-[400px] h-[400px] rounded-md"
+          src="/makeup3.jpeg"
           alt="woman using jade roller"
         />
       </div>
       <div className="w-full lg:w-2/3 flex flex-col items-center justify-center gap-7">
-        <h3 className="capitalize text-4xl sm:text-6xl max-w-[650px] text-center leading-[50px] sm:leading-[100px]">
+        <h3 className="capitalize text-4xl sm:text-6xl max-w-[650px] px-5 text-center leading-[50px] sm:leading-[100px]">
           Our services will enhance{" "}
           <span className="text-[#A27474]">your glow</span>
         </h3>

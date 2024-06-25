@@ -11,7 +11,7 @@ const WeProvideBanner = () => {
           treatments designed to enhance your natural beauty and leave you
           feeling rejuvenated. Whether you&apos;re looking for stunning lashes,
           glowing skin, or silky-smooth results, we provide everything you need
-          to look and feel your best
+          to look and feel your best.
         </p>
       </div>
     </div>

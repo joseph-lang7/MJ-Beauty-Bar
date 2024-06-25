@@ -3,7 +3,7 @@ import ServiceTitle from "../components/service-title";
 import SpecificService from "../components/specific-service";
 const Waxing = () => {
   return (
-    <div className="w-full md:w-[300px] flex flex-col gap-5">
+    <div className="w-full md:w-[310px] flex flex-col gap-5">
       <ServiceCategoryTitle content="Waxing" />
       <div className="flex flex-col gap-2 w-full">
         <ServiceTitle content="Face" />
