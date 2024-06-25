@@ -1,4 +1,5 @@
-import { AppointmentButton, Title, ImageBanner } from "./components";
+import { Title, ImageBanner } from "./components";
+import AppointmentButton from "../appointment-btn/appointment-btn";
 const Hero = () => {
   return (
     <>

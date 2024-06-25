@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { AppointmentButton } from "../hero/components";
+import AppointmentButton from "../appointment-btn/appointment-btn";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { formSchema } from "./form-schema";
 const ContactForm = () => {
