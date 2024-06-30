@@ -5,7 +5,10 @@ import Waxing from "../components/pricing-grid-sections/waxing/waxing";
 const PricingPage = () => {
   return (
     <div className="h-auto max-w-screen pt-20 flex flex-col items-center">
-      <div className="flex flex-col md:flex-row md:justify-around gap-7 w-full px-5 max-w-[1200px] sm:text-lg">
+      <h1 className="text-center text-5xl font-bold uppercase my-10">
+        Pricing
+      </h1>
+      <div className="flex flex-col md:flex-row md:justify-around gap-7 w-full px-5 max-w-[1200px] text-lg">
         <Lashing />
         <Waxing />
       </div>
